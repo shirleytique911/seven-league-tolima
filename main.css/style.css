@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+
+
+}
+    
+.encabezado {
+    padding: 30px;
+    background-color: rgb(88, 21, 21);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+.logo{
+    
+    width:50px;
+    border: 50px;
+    border:solid black;
+    
+
+}
+
+.titulo{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid white;
+}
+
+.menu_item a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* SECCIONES */
+
+.seccionPrincipal {
+    
+    background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.seccionPrincipal h2 {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 30px;
+    border-radius: 30px;
+   
+}
+/* SECCION AVAL */
+.aval{
+    padding: 100px;
+}
+
+
+.aval h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.tarjetas{
+    display: flex;
+    gap: 290px
+  
+
+    
+}
+.tarjetas{
+    position:relative;
+}
+
+.tarjetas_imagen{
+    width: 100%;
+}
+
+.tarjeta_titulo{
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+
+    color:white;
+    background-color:  rgba(36, 31, 31, 0.445);
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+/* seccion3 */
+
+.quienes{
+    background-image: url("../imagenes/FOTO\ SLT.B.jpg");
+    background-size:cover ;
+    height: 100vh;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    ".texto";
+
+
+}
+
+.quienes_texto{
+    grid-area: texto;
+    color:white;
+    background-color: rgba(91, 91, 223, 0.74);
+    padding: 8px;
+
+    
+}
+
+.borde{
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/* SECCION 4 */
+
+.clubes{
+    padding: 100px;
+    
+    
+}
+.card4{
+    
+    display: flex;
+    gap: 50px;
+    
+    
+
+}
+
+
+
+.clubes h2{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+
+
+}
+
+.orgullo {
+    
+    color:black;
+    
+    padding: 100px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 70x;
+    
+    background-image: url("../imagenes/FOTO\ CLUB\ P.jpg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+
+.enlace{
+    color: red;
+}
+
+/* seccion 4 */
+
+.formulario {
+    padding: 100px;
+
+
+}
+
+.formulario h4{
+    
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+}
+ 
+/* FORMULARIO FLATA POR DECORAR  */
+
+
+.jueces{
+    padding: 100px;   
+    
+}
+
+.jueces h2{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+
+
+}
+
+
+/* falta por incluir informacion del colegio de jueces  */
+
+
+.card4{
+    
+    display: flex;
+    gap: 50px;
+    
+    
+
+}
+
+.tarjeta4{
+    position: relative;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.card4_imagen{
+    width: 100%;
+
+}
+
+
+.footer{
+    color: white;
+    background-color:  rgb(88, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.enlace_f{
+    color: white;
+}
+/* AVALDO PAGINA 2 */
+
+
+
+
+    
+.encabezado {
+    padding: 30px;
+    background-color: rgb(88, 21, 21);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+.logo{
+    
+    width:50px;
+    border: 50px;
+    border:solid black;
+    
+
+}
+
+
+.entes {
+    
+    background-image: url("../imagenes/gerente\ de\ indeportes\ y\ niños.jpeg");
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.entes h2 {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 30px;
+    border-radius: 30px;
+   
+}
+.grid{
+    background-color: rgba(0, 0, 255, 0.521);
+
+
+    display: grid;grid-template-columns: 4fr 4fr 4fr 4fr;
+    
+
+
+}
+.grid div {
+    border: 2px solid black;
+    padding: 16px;
+}
+
+.grid div img{
+    width: 100%;
+    
+
+}
+
+
+/* seccion de conoce mas  */
+
+
+
+
+.colombia{
+    padding: 30px;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    display:grid;
+    grid-template-areas:
+    ".texto";
+    
+   
+
+}
+.colombia_texto{
+    grid-area:texto;
+    color:black;
+    background-color: rgba(255, 192, 203, 0.829);
+    padding: 16px;
+     
+
+}
+.borde{
+    border-bottom:2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    color: white;
+    background-color:  rgb(88, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.enlace_f{
+    color: white;
+}
+
+/* PAGINA 3  */
+
+
+
+.encabezado {
+    padding: 30px;
+    background-color: rgb(88, 21, 21);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+.logo{
+    
+    width:50px;
+    border: 50px;
+    border:solid black;
+    
+
+}
+/* seccion 1 pagina 3 */
+.nosotros{
+    padding: 30px;
+    color: white;
+    background-color:rgba(0, 0, 255, 0.61);
+    display:grid;
+    grid-template-areas:
+    ".texto";
+    
+   
+
+}
+.nosotros_texto{
+    grid-area:texto;
+    color:black;
+    background-color: rgba(255, 192, 203, 0.829);
+    padding: 16px;
+     
+
+}
+.borde{
+    border-bottom:2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+/* seccion 2 pagina 3 */
+
+
+
+.evento{
+    padding: 100px;   
+    
+}
+
+.evento h2{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+
+
+}
+.reseña{
+    
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    
+}
+    
+
+.reseña{
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.videos_1{
+    
+    width: 100%;
+
+}
+
+.reseña_description{
+    position:relative;
+    
+    bottom: 10px;
+    left: 16px;
+
+    color:black;
+    
+
+    padding: 70px;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.footer{
+    color: white;
+    background-color:  rgb(88, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.enlace_f{
+    color: white;
+}
+
+
+/* PAGINA DE CLUBES AFILIADOS  */
+
+.encabezado {
+    padding: 30px;
+    background-color: rgb(88, 21, 21);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+.logo{
+    
+    width:50px;
+    border: 50px;
+    border:solid black;
+    
+
+}
+/* SECCION DE CLUB LEONES  */
+
+.leones{
+    padding: 30px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.61);
+    display: grid;
+    grid-template-areas:
+    ".texto";
+    
+   
+
+}
+.leones_texto{
+    grid-area:texto;
+    color:black;
+    background-color: rgba(255, 192, 203, 0.829);
+
+
+
+}
+
+.h3{
+    padding: 16px;
+    color: black;
+}
+.grid{
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.521);
+
+
+    display: grid;
+    grid-template-columns: 33,3px  33,3px;
+    /* grid-template-rows: 1fr 1fr; */
+     
+     
+
+}
+
+.grid div{
+    border: 2px solid black;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
