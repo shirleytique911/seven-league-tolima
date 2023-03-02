@@ -16,12 +16,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap:wrap ;
+    
 }
 
 .menu{
     list-style-type: none;
     display: flex;
     gap: 18px;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -387,11 +390,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .menu{
     list-style-type: none;
     display: flex;
     gap: 18px;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -532,7 +537,7 @@
     background-color: rgba(0, 0, 255, 0.61);
     display: grid;
     grid-template-areas:
-    ".texto";
+    "texto";
     
    
 
@@ -550,34 +555,49 @@
     padding: 16px;
     color: black;
 }
-.grid{
+.grid_videos{
     display: flex;
     background-color: rgba(0, 0, 255, 0.521);
+    justify-content: center;
+    gap: 1em;
+    border: 2px solid white;
+
 
 
     display: grid;
-    grid-template-columns: 33,3px  33,3px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
     /* grid-template-rows: 1fr 1fr; */
+    grid-template-rows: minmax(50px,20px);
+
      
      
 
 }
 
-.grid div{
-    border: 2px solid black;
+.videos{
+    border: 2px solid white;
+    justify-content: center;
+    justify-items: center;
+    grid-template-rows: min-content;
+    gap: 5px;
+    padding: 1em;
+}
+
+
+
+
+/* 
+media acuris tablet y cel */
+
+@media screen and(max-width: 1023px){
+    
+    
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    
+@media  screen and(max-width:767px) {
+    
+    
+}

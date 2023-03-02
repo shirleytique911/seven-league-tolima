@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezado {
+    padding: 30px;
+    background-color: rgb(88, 21, 21);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap ;
+    
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.logo{
+    
+    width:50px;
+    border: 50px;
+    border:solid black;
+    
+
+}
+
+.titulo{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid white;
+}
+
+.menu_item a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* 
+FINAL DE PAGINA  */
+.footer{
+    color: white;
+    background-color:  rgb(88, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.enlace_f{
+    color: white;
+}
