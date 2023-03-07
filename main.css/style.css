@@ -166,9 +166,10 @@
 
 }
 
+
 .orgullo {
     
-    color:black;
+    color:white;
     
     padding: 100px;
     margin-bottom: 30px;
@@ -180,7 +181,27 @@
     text-align: center;
     line-height: 70x;
     
-    background-image: url("../imagenes/FOTO\ CLUB\ P.jpg");
+    background-image: url("../imagenes/club\ orgullo\ tolimense\ masculino");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+.leones {
+    
+    color:white;
+    
+    padding: 100px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 70x;
+    
+    background-image: url("../imagenes/club\ leones\ foto\ portada.jpg");
     background-repeat:no-repeat;
     background-position:top center;
     background-size:cover;
@@ -543,10 +564,11 @@
 
 }
 .leones_texto{
+    display: flex;
     grid-area:texto;
-    color:black;
-    background-color: rgba(255, 192, 203, 0.829);
-
+    color:white;
+    background-color: rgba(0, 0, 0, 0.418);
+padding: 40px;
 
 
 }
@@ -555,38 +577,43 @@
     padding: 16px;
     color: black;
 }
-.grid_videos{
+/* seccion del club orgullo tolimense */
+
+.club_orgullo{
     display: flex;
-    background-color: rgba(0, 0, 255, 0.521);
-    justify-content: center;
-    gap: 1em;
-    border: 2px solid white;
+    flex-wrap: wrap;
+    gap:10px;
+    transition: 1s;
+    width: 100%;
+    
 
 
+}
+.club_orgullo:hover{
+    transform: translate(0, -25px);
 
+}
+
+.tolimense{
+    padding: 30px;
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.61);
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: center;
-    justify-items: center;
-    /* grid-template-rows: 1fr 1fr; */
-    grid-template-rows: minmax(50px,20px);
-
-     
-     
-
+    grid-template-areas:
+    "texto";
 }
 
-.videos{
-    border: 2px solid white;
-    justify-content: center;
-    justify-items: center;
-    grid-template-rows: min-content;
-    gap: 5px;
-    padding: 1em;
+.mujeres_o{
+    width: 100%;
 }
 
-
-
+.card-header{
+    background-color: rgba(0, 0, 255, 0.606);
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
 
 /* 
 media acuris tablet y cel */

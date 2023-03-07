@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
-
+/* pagina de css de contacto y de colegio de jueces */
 *{
     margin: 0;
     padding: 0;
@@ -45,7 +45,36 @@
 }
 
 
+.slt {
+    
+    color:white;
+    
+    padding: 100px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 70x;
+    
+    background-image: url("../imagenes/jugador\ slt.jpg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+}
 
+.logomin{
+    display: flex;
+    justify-content: center;
+}
+.mindeporte{
+    display: flex;
+    justify-content: center;
+
+}
 
 
 
