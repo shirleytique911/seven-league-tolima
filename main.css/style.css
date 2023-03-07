@@ -60,6 +60,7 @@
     justify-content: center;
     align-items: center;
    
+
 }
 
 .seccionPrincipal h2 {
@@ -170,6 +171,7 @@
 .orgullo {
     
     color:white;
+
     
     padding: 100px;
     margin-bottom: 30px;
@@ -181,6 +183,7 @@
     text-align: center;
     line-height: 70x;
     
+
     background-image: url("../imagenes/club\ orgullo\ tolimense\ masculino");
     background-repeat:no-repeat;
     background-position:top center;
@@ -190,7 +193,7 @@
 .leones {
     
     color:white;
-    
+
     padding: 100px;
     margin-bottom: 30px;
     border-radius: 20px;
@@ -214,13 +217,6 @@
 }
 
 /* seccion 4 */
-
-.formulario {
-    padding: 100px;
-
-
-}
-
 .formulario h4{
     
     margin-bottom: 40px;
@@ -231,8 +227,38 @@
     border-radius: 20px;
 }
  
-/* FORMULARIO FLATA POR DECORAR  */
+.formulario {
+    padding: 100px;
+    background-image: url("../imagenes/cancha.jpg");
 
+
+}
+.formulario_c{
+    background-color: rgba(255, 228, 196, 0.573);
+}
+.color_en{
+    background-color:  rgba(255, 228, 196, 0.573);
+}
+.color_curso{
+   background-color:  rgba(255, 228, 196, 0.573);
+}
+
+
+.color_f{
+    background-color:rgba(255, 228, 196, 0.573);
+
+}
+.categorias{
+    background-color:rgba(255, 228, 196, 0.573);
+} 
+
+.envio_formulario{
+    background-color:rgba(255, 228, 196, 0.573);
+
+}
+
+/* se decora seccion de formulario */
+/* SECCION DE JUECES */
 
 .jueces{
     padding: 100px;   
@@ -248,10 +274,8 @@
     border-radius: 20px;
 
 
-}
-
-
-/* falta por incluir informacion del colegio de jueces  */
+}  
+/* SE INCLUYE INFORMACION NUEVA COLEGIO DE JUECES */
 
 
 .card4{
@@ -266,7 +290,7 @@
 .tarjeta4{
     position: relative;
     justify-content: center;
-    background-color: bisque;
+    background-color:bisque;
 }
 
 .card4_imagen{
@@ -473,44 +497,8 @@
 
 
 }
-.reseña{
-    
-    display: flex;
-    gap: 10px;
-    padding: 20px;
-    
-}
-    
 
-.reseña{
-    position: relative;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.videos_1{
-    
-    width: 100%;
-
-}
-
-.reseña_description{
-    position:relative;
-    
-    bottom: 10px;
-    left: 16px;
-
-    color:black;
-    
-
-    padding: 70px;
-    justify-content: center;
-    text-align: center;
-    
-}
 
 .footer{
     color: white;
@@ -555,7 +543,6 @@
 .leones{
     padding: 30px;
     color: white;
-    background-color: rgba(0, 0, 255, 0.61);
     display: grid;
     grid-template-areas:
     "texto";
@@ -573,9 +560,10 @@ padding: 40px;
 
 }
 
-.h3{
-    padding: 16px;
+.titulo_leones{
+    padding: 20px;
     color: black;
+    background-color: rgba(0, 0, 255, 0.598);
 }
 /* seccion del club orgullo tolimense */
 
@@ -614,17 +602,9 @@ padding: 40px;
     padding: 20px;
     font-size: 25px;
 }
+    
 
-/* 
-media acuris tablet y cel */
 
-@media screen and(max-width: 1023px){
-    
-    
-    
-}
-    
-@media  screen and(max-width:767px) {
-    
-    
-}
+
+
+
