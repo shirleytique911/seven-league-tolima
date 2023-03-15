@@ -603,7 +603,100 @@ padding: 40px;
     font-size: 25px;
 }
     
+/* modificacion de css de jueces y contacto */
 
+.encabezado {
+    padding: 30px;
+    background-color: rgb(88, 21, 21);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap ;
+    
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+    
+    width:50px;
+    border: 50px;
+    border:solid black;
+    
+}
+
+.titulo{
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid white;
+}
+
+.menu_item a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+.foto_jugador {
+    
+    color:white;
+    
+    padding: 100px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 70x;
+    
+    background-image: url("../imagenes/jugador\ slt.jpg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+ .title_contacto{
+    background-color: rgba(0, 0, 0, 0.696);
+    color: white;
+    text-align: center;
+    padding: 16px;
+ }
+
+.formulario_contacto{
+    background-color:rgba(0, 0, 255, 0.573);
+    color: white;
+    text-align: center;
+    padding: 16px;
+
+}
+
+
+/* 
+FINAL DE PAGINA  */
+.footer{
+    color: white;
+    background-color:  rgb(88, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.enlace_f{
+    color: white;
+}
+
+se añade css de contacto 
 
 
 
