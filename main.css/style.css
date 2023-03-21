@@ -65,10 +65,14 @@
 
 .seccionPrincipal h2 {
     color:white;
-    background-color: rgba(0, 0, 0, 0.171);
+    background-color: rgba(0, 0, 0, 0.271);
     padding: 30px;
     border-radius: 30px;
    
+}
+
+.seccionPrincipal h2:hover{
+    transform: scale(1.6);
 }
 /* SECCION AVAL */
 .aval{
@@ -107,6 +111,9 @@
     border-radius: 20px;
 
 }
+.tarjeta_titulo:hover{
+    transform: scale(1.3);
+}
 
 /* seccion3 */
 
@@ -114,6 +121,7 @@
     background-image: url("../imagenes/FOTO\ SLT.B.jpg");
     background-size:cover ;
     height: 100vh;
+    display: flex;
 
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -121,6 +129,13 @@
     ".texto";
 
 
+}
+.quienes{
+    transition: 1sg;
+}
+.quienes:hover{
+    transform: translate(0,-25px) ;
+    
 }
 
 .quienes_texto{
@@ -141,19 +156,8 @@
 /* SECCION 4 */
 
 .clubes{
-    padding: 100px;
-    
-    
+    padding: 100px;   
 }
-.card4{
-    
-    display: flex;
-    gap: 50px;
-    
-    
-
-}
-
 
 
 .clubes h2{
@@ -190,6 +194,7 @@
     background-size:cover;
     background-attachment: fixed;
 }
+
 .leones {
     
     color:white;
@@ -290,13 +295,48 @@
 .tarjeta4{
     position: relative;
     justify-content: center;
-    background-color:bisque;
+    background-color:white;
 }
 
 .card4_imagen{
     width: 100%;
 
 }
+.tarjeta4{
+    transition: 1s;
+}
+.tarjeta4:hover{
+    transform:scale(1.2) ;
+}
+
+/* SE AÑADE SECCION DE JUAGADORES  */
+
+.grid_2{
+    background-color: rgba(255, 255, 0, 0.674);
+
+
+    display: grid;grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
+    
+
+
+}
+.grid_2 div {
+    border: 2px solid black;
+    padding: 16px;
+}
+
+.grid_2 div img{
+    width: 100%;
+    
+
+}
+.grid_2 div img{
+    transition: 1s;
+}
+.grid_2 div img:hover{
+    transform: scale(1.6);
+}
+
 
 
 .footer{
@@ -335,7 +375,7 @@
     
     width:50px;
     border: 50px;
-    border:solid black;
+    border:solid rgb(0, 0, 0);
     
 
 }
@@ -364,7 +404,7 @@
     background-color: rgba(0, 0, 255, 0.521);
 
 
-    display: grid;grid-template-columns: 4fr 4fr 4fr 4fr;
+    display: grid;grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
     
 
 
@@ -379,8 +419,12 @@
     
 
 }
-
-
+.grid div img{
+    transition: 1s;
+}
+.grid div img:hover{
+    transform: scale(1.3);
+}
 /* seccion de conoce mas  */
 
 
@@ -423,7 +467,12 @@
 .enlace_f{
     color: white;
 }
-
+.enlace_f{
+    transition: 1s;
+}
+.enlace_f:hover{
+    transform: scale(1.3);
+}
 /* PAGINA 3  */
 
 
@@ -478,6 +527,7 @@
     padding-bottom: 10px;
 }
 
+
 /* seccion 2 pagina 3 */
 
 
@@ -485,6 +535,9 @@
 .evento{
     padding: 100px;   
     
+}
+.card-header{
+    text-align: center;
 }
 
 .evento h2{
@@ -696,7 +749,7 @@ FINAL DE PAGINA  */
     color: white;
 }
 
-se añade css de contacto 
+/* se añade css de contacto  */
 
 
 
