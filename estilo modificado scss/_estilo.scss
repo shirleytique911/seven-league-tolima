@@ -100,8 +100,9 @@
 	&_texto {
 		grid-area: texto;
 		color: white;
-		background-color: rgba(91, 91, 223, 0.74);
-		padding: 8px;
+		font-size: italic;
+		background-color: rgba(24, 24, 113, 0.782);
+		padding: 9px;
 	}
 }
 .quienes {
@@ -139,9 +140,13 @@
 	background-position: top center;
 	background-size: cover;
 	background-attachment: fixed;
+	&_texto {
+		background-color: rgba(0, 0, 0, 0.558);
+		padding: 30px;
+	}
 }
 .leones {
-	color: white;
+	color: black;
 	padding: 100px;
 	margin-bottom: 30px;
 	border-radius: 20px;
@@ -156,6 +161,10 @@
 	background-position: top center;
 	background-size: cover;
 	background-attachment: fixed;
+	&1_texto {
+		background-color: rgba(0, 0, 0, 0.498);
+		padding: 40px;
+	}
 	&_texto {
 		display: flex;
 		grid-area: texto;
@@ -165,7 +174,16 @@
 	}
 }
 .enlace {
-	color: red;
+	color: white;
+	border-radius: 20px;
+	padding: 5px;
+	background-color: rgba(165, 42, 42, 0.824);
+	&_2 {
+		color: white;
+		border-radius: 20px;
+		padding: 3px;
+		background-color: rgba(165, 42, 42, 0.824);
+	}
 	&_f {
 		color: white;
 		&:hover {
@@ -495,7 +513,7 @@
 	font-family: monospace;
 	text-align: center;
 	line-height: 70x;
-	background-image: url ("../imagenes/jugador/slt.jpg");
+	background-image: url("../imagenes/jugador\ slt.jpg");
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: cover;
