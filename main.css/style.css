@@ -4,11 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    
-
-
 }
-    
 .encabezado {
     padding: 30px;
     background-color: rgb(88, 21, 21);
@@ -26,27 +22,29 @@
     gap: 18px;
     flex-wrap: wrap;
 }
-
 .logo{
     
     width:50px;
     border: 50px;
-    border:solid black;
-    
-
+    border:solid black;  
 }
 
 .titulo{
     color: white;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border: solid white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .menu_item a {
     color: white;
-    text-decoration: none;
+   
     
 }
+.nav-item-quienes{
+    color: white;
+}
+
 
 /* SECCIONES */
 
@@ -55,6 +53,7 @@
     background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
     background-size: cover;
     height: 100vh;
+    font-family: monospace;
 
     display: flex;
     justify-content: center;
@@ -77,12 +76,15 @@
 /* SECCION AVAL */
 .aval{
     padding: 100px;
+
 }
 
 
 .aval h2{
     margin-bottom: 40px;
     text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
 
 .tarjetas{
@@ -124,7 +126,7 @@
     display: flex;
 
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr  ;
     grid-template-areas:
     ".texto";
 
@@ -157,7 +159,8 @@
 /* SECCION 4 */
 
 .clubes{
-    padding: 100px;   
+    padding: 100px;  
+    
 }
 
 
@@ -168,6 +171,7 @@
     background-color: rgb(88, 21, 21);
     padding: 30px;
     border-radius: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
 }
@@ -177,17 +181,15 @@
     
     color:white;
 
-    
+
     padding: 100px;
     margin-bottom: 30px;
-    border-radius: 20px;
-    font-size: italic;
     font-weight: bold;
     font-size: 20px;
-    font-family: monospace;
     text-align: center;
     line-height: 70x;
     
+    font-family: monospace;
 
     background-image: url("../imagenes/club\ orgullo\ tolimense\ masculino");
     background-repeat:no-repeat;
@@ -198,84 +200,43 @@
 .orgullo_texto{
     background-color: rgba(0, 0, 0, 0.558);
     padding: 30px;
-}
-
-.leones{
-    
-    color:black;
-
-    
-    padding: 100px;
-    margin-bottom: 30px;
     border-radius: 20px;
-    font-size: italic;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: monospace;
-    text-align: center;
-    line-height: 70x;
-    
 
-    background-image: url("../imagenes/club\ leones\ foto\ portada.jpg");
-    background-repeat:no-repeat;
-    background-position:top center;
-    background-size:cover;
-    background-attachment: fixed;
 }
 
+.h2_orgullo{
+    font-family: monospace;
 
-.leones1_texto{
-    background-color: rgba(0, 0, 0, 0.498);
-    padding: 40px;
 }
 
 .enlace{
     color: white;   
      border-radius: 20px;
-     padding: 5px;
+     padding: 3px;
     background-color: rgba(165, 42, 42, 0.824);
 }
 
 /* seccion 4 */
-.formulario h4{
+.formulario{
+    padding: 30px;  
+   
+    background-color: rgba(255, 192, 203, 0.829);
+    border-radius: 16px;
     
+}
+
+.formulario h4{
     margin-bottom: 40px;
     text-align:center;
     color: white;
     background-color: rgb(88, 21, 21);
     padding: 30px;
     border-radius: 20px;
-}
+
+
+}  
  
-.formulario {
-    padding: 100px;
-    background-image: url("../imagenes/cancha.jpg");
 
-
-}
-.formulario_c{
-    background-color: rgba(255, 228, 196, 0.573);
-}
-.color_en{
-    background-color:  rgba(255, 228, 196, 0.573);
-}
-.color_curso{
-   background-color:  rgba(255, 228, 196, 0.573);
-}
-
-
-.color_f{
-    background-color:rgba(255, 228, 196, 0.573);
-
-}
-.categorias{
-    background-color:rgba(255, 228, 196, 0.573);
-} 
-
-.envio_formulario{
-    background-color:rgba(255, 228, 196, 0.573);
-
-}
 
 /* se decora seccion de formulario */
 /* SECCION DE JUECES */
@@ -304,12 +265,13 @@
 }
 /* SE INCLUYE INFORMACION NUEVA COLEGIO DE JUECES */
 
-
+.jueces{
+    text-align: center;
+}
 .card4{
     
     display: flex;
     gap: 50px;
-    
     
 
 }
@@ -318,10 +280,12 @@
     position: relative;
     justify-content: center;
     background-color:white;
+    
 }
 
 .card4_imagen{
     width: 100%;
+    border-radius: 10px;
 
 }
 .tarjeta4{
@@ -333,19 +297,20 @@
 
 /* SE AÑADE SECCION DE JUAGADORES  */
 
+.JUGADORES{
+   text-align: center;
+   background-color: rgba(255, 192, 203, 0.829);
+
+}
+
 .grid_2{
-    background-color: rgba(255, 255, 0, 0.674);
-
-
     display: grid;grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
-    
 
 
 }
 
 
 .grid_2 div {
-    border: 2px solid black;
     padding: 16px;
 }
 
@@ -627,12 +592,35 @@
    
 
 }
+.leones{
+    
+    color:white;
+
+    
+    padding: 100px;
+    margin-bottom: 30px;
+    font-size: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 70x;
+    
+
+    background-image: url("../imagenes/club\ leones\ foto\ portada.jpg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
 .leones_texto{
     display: flex;
     grid-area:texto;
     color:white;
     background-color: rgba(0, 0, 0, 0.418);
 padding: 40px;
+border-radius: 20px;
 
 
 }
@@ -749,13 +737,6 @@ padding: 40px;
     padding: 16px;
  }
 
-.formulario_contacto{
-    background-color:rgba(0, 0, 255, 0.573);
-    color: white;
-    text-align: center;
-    padding: 16px;
-
-}
 
 
 /* 
@@ -776,5 +757,17 @@ FINAL DE PAGINA  */
 /* se añade css de contacto  */
 
 
+/* media queries */
 
+
+/* // Small devices (landscape phones, 576px and up) */
+
+@media screen and (max-width:576){
+ 
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
 
