@@ -607,6 +607,13 @@ FINAL DE PAGINA  */
     border-color: black;
 }
 /* se añade css de contacto  */
+.cardmin-img-top{
+    width: 30rem;
+    align-items: center;
+    
+}
+
+
 
 
 /* media queries */
