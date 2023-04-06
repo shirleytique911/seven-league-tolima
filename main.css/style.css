@@ -171,16 +171,17 @@
     background-position:top center;
     background-size:cover;
     background-attachment: fixed;
-}
-.orgullo_texto{
-    background-color: rgba(0, 0, 0, 0.558);
-    padding: 30px;
-    border-radius: 20px;
 
 }
 
 .h2_orgullo{
     font-family: monospace;
+
+}
+.orgullo_texto{
+    background-color: rgba(0, 0, 0, 0.558);
+    padding: 30px;
+    border-radius: 20px;
 
 }
 
@@ -377,6 +378,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   
 }
 .enlace_f{
@@ -452,6 +454,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   
 }
 .enlace_f{
@@ -596,6 +599,7 @@ FINAL DE PAGINA  */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
   
 }
 .enlace_f{
@@ -635,7 +639,7 @@ FINAL DE PAGINA  */
       .quienes {
         background-image: url("../imagenes/reunion\ imdri.jpeg");
         background-size: cover;
-        height: 20vh;
+        height: 30vh;
         display: flex;
         display: grid;
         grid-template-columns: 1fr;
@@ -644,7 +648,7 @@ FINAL DE PAGINA  */
       }
 
       .grid_2{
-        display: grid;grid-template-columns: 4fr ;
+        display: grid;grid-template-columns: 3fr ;
     
     
     }
@@ -725,23 +729,47 @@ FINAL DE PAGINA  */
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-.orgullo {
+    
+    .seccionPrincipal {
+        background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
+        background-size: cover;
+        height: 20vh;
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .orgullo {
     
     color:white;
 
 
-    padding: 100px;
-    margin-bottom: 30px;
+    padding: 70px;
+    margin-bottom: 20px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
-    line-height: 20px;
+    line-height: 10px;
+
+
     
     font-family: monospace;
 
     background-image: url("../imagenes/club\ orgullo\ tolimense\ masculino");
+    background-position:top center;
+    background-size:cover;
+    background-attachment: none;
+   
 
 }
+.orgullo_texto{
+    background-color: rgba(0, 0, 0, 0.558);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
 .grid div img{
     width: 8vh;
 
