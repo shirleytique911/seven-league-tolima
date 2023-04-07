@@ -679,6 +679,13 @@ FINAL DE PAGINA  */
 .grid div img:hover{
     transform: scale(1.5);
 }
+
+.orgullo_texto{
+    background-color: rgba(0, 0, 0, 0.558);
+    padding: 10px;
+    border-radius: 10px;
+
+}
 /* pagina de quienes somos */
 
 .videos_q{
@@ -730,15 +737,7 @@ FINAL DE PAGINA  */
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     
-    .seccionPrincipal {
-        background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
-        background-size: cover;
-        height: 20vh;
-        font-family: monospace;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
+    
 
     .orgullo {
     
@@ -763,12 +762,7 @@ FINAL DE PAGINA  */
    
 
 }
-.orgullo_texto{
-    background-color: rgba(0, 0, 0, 0.558);
-    padding: 10px;
-    border-radius: 10px;
 
-}
 
 .grid div img{
     width: 8vh;
