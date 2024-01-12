@@ -624,7 +624,7 @@ FINAL DE PAGINA  */
 
 /*---------------Diseño de responssivo-------*/
 
-@media screen and (max-width:13600px){
+@media screen and (max-width:1360px){
     
     .seccionPrincipal {
         background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
