@@ -624,11 +624,11 @@ FINAL DE PAGINA  */
 
 /*---------------Diseño de responssivo-------*/
 
-@media screen and (max-width:1360px){
+@media screen and (max-width:1000px){
     
     .seccionPrincipal {
         background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
-        width:100%:
+        
         background-size: cover;
         
         font-family: monospace;
