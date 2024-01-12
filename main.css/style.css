@@ -622,14 +622,15 @@ FINAL DE PAGINA  */
 
 /* media queries */
 
+/*---------------Diseño de responssivo-------*/
 
-
-@media screen and (max-width:1000px){
+@media screen and (max-width:13600px){
     
     .seccionPrincipal {
         background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
+        width:100%:
         background-size: cover;
-        height: 20vh;
+        
         font-family: monospace;
         display: flex;
         justify-content: center;
