@@ -1,0 +1,790 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.logo-primero{
+    border-radius: 10px;
+    border: solid black;
+    justify-content: space-between;
+    align-items: center;
+    
+
+    
+}
+.titulo{
+    color: white;
+    border: solid white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.navbar-expand {
+    padding: 20px;
+    background-color: rgb(88, 21, 21);
+}
+.container-fluid{
+    padding: 30px;
+
+    background-color: rgb(88, 21, 21);
+
+    display: flex;
+    align-items: center;
+    
+}
+.navbar-collapse{
+    justify-content:end;
+
+}
+
+    
+/* SECCIONES */
+
+.seccionPrincipal {
+    
+    background-image: url("../imagenes/jugada\ juego\ ibague\ 1.jpg");
+    background-size: cover;
+    height: 100vh;
+    font-family: monospace;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.seccionPrincipal h2 {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.271);
+    padding: 30px;
+    border-radius: 30px;
+   
+}
+
+.seccionPrincipal h2:hover{
+    transform: scale(1.6);
+}
+/* SECCION AVAL */
+.aval{
+    padding: 100px;
+
+}
+.aval h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/* seccion3 */
+.conocenos{
+    padding: 100px;
+}
+.conocenos_1{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.quienes{
+    background-image: url("../imagenes/reunion\ imdri.jpeg");
+    background-size:cover ;
+    height: 90vh;
+    display: flex;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr   ;
+    grid-template-areas:
+    ".texto";
+
+
+}
+.quienes_texto{
+    grid-area: texto;
+    color:white;
+    font-size: italic;
+    background-color:  rgba(24, 24, 113, 0.499);
+    padding: 20px;
+    text-align:center;
+    
+}
+
+.quienes{
+    transition: 1sg;
+}
+.quienes:hover{
+    transform: translate(0,-25px) ;
+    
+}
+
+
+
+
+/* SECCION 4 */
+
+.clubes{
+    padding: 100px;  
+    
+}
+
+
+
+
+.clubes h2{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+
+.orgullo {
+    
+    color:white;
+
+
+    padding: 90px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+    
+    font-family: monospace;
+
+    background-image: url("../imagenes/club\ orgullo\ tolimense\ masculino");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+
+}
+
+.h2_orgullo{
+    font-family: monospace;
+
+}
+.orgullo_texto{
+    background-color: rgba(0, 0, 0, 0.558);
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.enlace{
+    color: white;   
+     border-radius: 20px;
+     padding: 3px;
+    background-color: rgba(165, 42, 42, 0.824);
+}
+
+/* seccion 4 */
+.formulario{
+    padding: 30px;  
+   
+    background-color: rgba(255, 192, 203, 0.829);
+    border-radius: 16px;
+    
+}
+
+.formulario h4{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+
+
+}  
+ 
+
+
+/* SECCION DE JUECES */
+
+.jueces{
+    padding: 100px;   
+    
+}
+
+.jueces h2{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+
+
+}  
+
+.enlace_2{
+    color: white;   
+     border-radius: 20px;
+     padding: 3px;
+    background-color: rgba(165, 42, 42, 0.824);
+}
+/* SE INCLUYE INFORMACION NUEVA COLEGIO DE JUECES */
+
+
+
+/* SE AÑADE SECCION DE JUAGADORES  */
+
+.JUGADORES{
+   text-align: center;
+   background-color: rgba(255, 192, 203, 0.829);
+
+}
+
+.grid_2{
+    display: grid;grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
+
+
+}
+
+
+.grid_2 div {
+    padding: 16px;
+}
+
+.grid_2 div img{
+    width: 100%;
+    
+
+}
+.grid_2 div img{
+    transition: 1s;
+}
+.grid_2 div img:hover{
+    transform: scale(1.4);
+}
+
+
+
+.footer{
+    color: white;
+    background-color:  rgb(88, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.logo{
+    width: 50px;
+    border-radius: 10px ;  
+    border: solid black;
+}
+
+.enlace_f{
+    color: white;
+}
+/* AVALDO PAGINA 2 */
+
+
+
+.entes {
+    
+    background-image: url("../imagenes/gerente\ de\ indeportes\ y\ niños.jpeg");
+    background-size: cover;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.entes h2 {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.171);
+    padding: 30px;
+    border-radius: 30px;
+   
+}
+.grid{
+    background-color: rgba(0, 0, 255, 0.521);
+
+
+    display: grid;grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
+    
+
+
+}
+.grid div {
+    border: 2px solid black;
+    padding: 16px;
+}
+
+.grid div img{
+    width: 100%;
+    
+
+}
+.grid div img{
+    transition: 1s;
+}
+.grid div img:hover{
+    transform: scale(3.5);
+}
+/* seccion de conoce mas  */
+
+
+
+
+.colombia{
+    padding: 30px;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    display:grid;
+    grid-template-areas:
+    ".texto";
+    
+   
+
+}
+.colombia_texto{
+    grid-area:texto;
+    color:black;
+    background-color: rgba(255, 192, 203, 0.829);
+    padding: 16px;
+     
+
+}
+.borde{
+    border-bottom:2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.footer{
+    color: white;
+    background-color:  rgb(88, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.enlace_f{
+    color: white;
+}
+.enlace_f{
+    transition: 1s;
+}
+.enlace_f:hover{
+    transform: scale(1.3);
+}
+/* PAGINA 3  */
+
+
+
+/* seccion 1 pagina 3 */
+.nosotros{
+    padding: 30px;
+    color: white;
+    background-color:rgba(0, 0, 255, 0.61);
+    display:grid;
+    grid-template-areas:
+    ".texto";
+    
+   
+
+}
+.nosotros_texto{
+    grid-area:texto;
+    color:black;
+    background-color: rgba(255, 192, 203, 0.829);
+    padding: 16px;
+     
+
+}
+.borde{
+    border-bottom:2px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* seccion 2 pagina 3 */
+
+
+
+.evento{
+    padding: 100px;   
+    
+}
+
+
+.evento h2{
+    margin-bottom: 40px;
+    text-align:center;
+    color: white;
+    background-color: rgb(88, 21, 21);
+    padding: 30px;
+    border-radius: 20px;
+
+
+}
+.videos_q{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+
+.footer{
+    color: white;
+    background-color:  rgb(88, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.enlace_f{
+    color: white;
+}
+
+
+/* PAGINA DE CLUBES AFILIADOS  */
+
+
+
+/* SECCION DE CLUB LEONES  */
+
+.leones{
+    padding: 30px;
+    color: white;
+    display: grid;
+    grid-template-areas:
+    "texto";
+    
+   
+
+}
+.leones{
+    
+    color:white;
+
+    
+    padding: 100px;
+    margin-bottom: 30px;
+    font-size: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 70px;
+    
+
+    background-image: url("../imagenes/club\ leones\ foto\ portada.jpg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.leones_texto{
+    display: flex;
+    grid-area:texto;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.418);
+padding: 40px;
+border-radius: 20px;
+
+
+}
+
+.titulo_leones{
+    padding: 20px;
+    color: black;
+    background-color: rgba(0, 0, 255, 0.598);
+}
+/* seccion del club orgullo tolimense */
+
+.club_orgullo{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    transition: 1s;
+    width: 100%;
+    
+
+
+}
+.club_orgullo:hover{
+    transform: translate(0, -25px);
+
+}
+
+.tolimense{
+    padding: 30px;
+    color: white;
+    display: flex;
+    background-color: rgba(0, 0, 255, 0.61);
+    display: grid;
+    grid-template-areas:
+    "texto";
+}
+
+.mujeres_o{
+    width: 100%;
+}
+
+.card-header{
+    background-color: rgba(0, 0, 255, 0.606);
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+    
+/* modificacion de css de jueces y contacto */
+
+
+.cardmin-img-top{
+    width: 40rem;
+}
+
+.foto_jugador {
+    
+    color:white;
+    
+    padding: 100px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    line-height: 70x;
+    
+    background-image: url("../imagenes/jugador\ slt.jpg");
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+ .title_contacto{
+    background-color: rgba(0, 0, 0, 0.478);
+    color: white;
+    text-align: center;
+    padding: 10px;
+ }
+
+
+
+/* 
+FINAL DE PAGINA  */
+.footer{
+    color: white;
+    background-color:  rgb(88, 21, 21);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+.enlace_f{
+    color: white;
+}
+.logo{
+    width: 50px;
+    border-radius: 10;
+    border-color: black;
+}
+/* se añade css de contacto  */
+.cardmin-img-top{
+    width: 30rem;
+    align-items: center;
+    
+}
+
+
+
+
+/* media queries */
+
+
+
+@media screen and (max-width:1000px){
+    
+    .seccionPrincipal {
+        background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
+        
+        background-size: cover;
+        height: 20vh;
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .quienes {
+        background-image: url("../imagenes/reunion\ imdri.jpeg");
+        background-size: cover;
+        height: 30vh;
+        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "texto";
+      }
+
+      .grid_2{
+        display: grid;grid-template-columns: 3fr ;
+    
+    
+    }
+      
+    .entes {
+    
+        background-image: url("../imagenes/reunion\ de\ acuerdo\ ind.jpeg");
+        height: 20vh;
+    }
+    
+    
+    .grid{
+        background-color: white;
+    
+    
+        display: grid;grid-template-columns: 2fr ;
+        
+    
+    }
+    .grid div img{
+        width: 10vh;
+       
+}
+
+.grid div img{
+    transition: 1s;
+}
+.grid div img:hover{
+    transform: scale(1.5);
+}
+
+.orgullo_texto{
+    background-color: rgba(0, 0, 0, 0.558);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+/* pagina de quienes somos */
+
+.videos_q{
+    width: 100%;
+    aspect-ratio: 1/1;
+    flex-direction: column;
+}
+
+/* pagina de afiliados */
+
+.leones{
+   
+
+    line-height: 30px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/* pagina de categoria/eventos */
+
+.card-group{
+    flex-direction: column;
+}
+
+/* pagina de contacto */
+
+.container{
+    flex-direction: column;
+}
+
+/* pagina de contacto */
+
+   
+
+
+.cardmin-img-top{
+    width: 25rem;
+    align-items: center;
+}
+}
+
+
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+    
+
+    .orgullo {
+    
+    color:white;
+
+
+    padding: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    line-height: 10px;
+
+
+    
+    font-family: monospace;
+
+    background-image: url("../imagenes/club\ orgullo\ tolimense\ masculino");
+    background-position:top center;
+    background-size:cover;
+    background-attachment: none;
+   
+
+}
+
+
+.grid div img{
+    width: 8vh;
+
+}
+.d-flex{
+    flex-direction: column;
+}
+.videos_q{
+    width: 100%;
+    aspect-ratio: 1/1;
+    flex-direction: column;
+}
+.ratio_{
+    flex-direction: column;
+}
+/* pagina de afiliados */
+
+.card{
+    flex-direction: column;
+}
+
+
+}
