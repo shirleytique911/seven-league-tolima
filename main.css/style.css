@@ -123,13 +123,10 @@
     
 }
 
-.quienes{
-    transition: 1sg;
-}
-.quienes:hover{
-    transform: translate(0,-25px) ;
+
+
+
     
-}
 
 
 
@@ -648,6 +645,7 @@ FINAL DE PAGINA  */
     
     
     .seccionPrincipal {
+ 
 		background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
 		background-size: cover;
 		height: 20vh;
@@ -667,23 +665,31 @@ FINAL DE PAGINA  */
         font-size: 24px; /* Reducir el tamaño de la fuente para h2 en pantallas más pequeñas */
         margin-bottom: 30px; /* Reducir el margen inferior de h2 en pantallas más pequeñas si es necesario */
     }
-}
+
 
 .row-cols-4 .col {
-    flex: 0 0 25%; /* Establecer el ancho de las columnas a 25% */
-    max-width: 25%; /* Establecer el ancho máximo de las columnas */
+    flex: 0 0 25%;
+    max-width: 25%; 
   }
 
   .container.text-center {
-    width: 100%; /* Ajustar el ancho del contenedor al 100% */
-    padding: 0 15px; /* Añadir un poco de espacio a los lados */
+    width: 100%; 
+    padding: 0 15px; 
   }
 
   .col img {
-    width: 100%; /* Hacer que las imágenes ocupen todo el ancho de sus contenedores */
-    margin-bottom: 20px; /* Añadir espacio entre las imágenes */
-  }
-
+    width: 100%; 
+    margin-bottom: 20px; 
+        background-image: url("../imagenes/FOTO\ DIRIGIENDO\ W..jpg");
+        
+        background-size: cover;
+        height: 20vh;
+        font-family: monospace;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    
 
       .quienes {
         background-image: url("../imagenes/reunion\ imdri.jpeg");
@@ -823,8 +829,7 @@ FINAL DE PAGINA  */
 	}
 
 	/* Estilos de la sección de quienes somos */
-	.quienes {
-    }/* Estilos de la sección de clubes */
+	Estilos de la sección de clubes */
 	.clubes {
 		padding: 100px;
 
@@ -908,4 +913,29 @@ FINAL DE PAGINA  */
 			color: white;
 		}
 	}
+}
+
+
+
+.grid div img{
+    width: 8vh;
+
+}
+.d-flex{
+    flex-direction: column;
+}
+.videos_q{
+    width: 100%;
+    aspect-ratio: 1/1;
+    flex-direction: column;
+}
+.ratio_{
+    flex-direction: column;
+}
+/* pagina de afiliados */
+
+.card{
+    flex-direction: column;
+}
+
 }
